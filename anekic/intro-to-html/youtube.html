@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKC_Coding</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;700;1,100;1,700;&display=swap" rel="stylesheet">
+    <style>
+        body {
+           font-family: Roboto;
+           background-color:black;
+           color:white;
+           margin: 0;
+           padding: 20px;
+        
+         }
+ 
+         .channel-container {
+             display: flex;
+             flex-direction: column;
+             gap: 10px;
+             max-width: 600px;
+         }
+ 
+         .video-title {
+             font-size: 18px;
+             font-weight: bold;
+         }
+ 
+         .channel-info {
+             display: flex;
+             align-items: center;
+             gap: 12px;
+         }
+ 
+         .profile-pic {
+             width: 40px;
+             height: 40px;
+             border-radius: 50%;
+             object-fit: cover;
+         }
+ 
+         .channel-details {
+             display: flex;
+             flex-direction: column;
+         }
+ 
+         .channel-name {
+             font-size: 16px;
+             font-weight: bold;
+             display: flex;
+             align-items: center;
+             gap: 5px;
+         }
+ 
+         .verified-badge {
+             display: inline-flex;
+             align-items: center;
+             justify-content: center;
+             width: 16px;
+             height: 16px;
+             background-color: white; /* YouTube-like blue */
+             border-radius: 50%;
+             color: rgb(0, 0, 0);
+             font-size: 14px;
+             font-weight: bold;
+             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+             text-align: center;
+             cursor: pointer;
+             
+         }
+ 
+         .subscriber-count {
+             font-size: 12px;
+             color: #aaa;
+         }
+ 
+         .subscribe-button {
+             background-color: #c21515;
+             color: #ffffff;
+             border: none;
+             border-radius: 20px;
+             padding: 7px 17px;
+             font-size: 14px;
+             cursor: pointer;
+         }
+ 
+         .subscribe-button:hover {
+             background-color: black;
+         }
+     </style>
+   
+</head>
+<body>
+    <div class="channel-container">
+        <div class="video-title">How I Master Coding Within Week</div>
+        <div class="channel-info">
+            <img src="img-profile.jpg" alt="Profile Picture" class="profile-pic">
+            <div class="channel-details">
+                <div class="channel-name">
+                    akcofficial.acc
+                    <span class="verified-badge">✔</span>
+                </div>
+                <div class="subscriber-count">301K subscribers</div>
+            </div>
+            <button class="subscribe-button">Subscribe</button>
+        </div>
+    </div>
+    
+</body>
+</html>

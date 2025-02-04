@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Cross Student Verification</title>
+    <!-- Adding the favicon -->
+    <link rel="icon" href="channel/ZRCS_Logo.png" type="image/x-icon">
+    <!-- Alternate formats supported -->
+    <link rel="icon" href="channel/ZRCS_Logo.png" type="image/png">
+    <link href="https://redcrossverify.org/images/logo.png" rel="icon" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        @media (max-width: 767px) {
+                body {
+                   font-size: 14px;
+                  }
+               }
+
+        body {
+            font-family: Poppins, sans-serif;
+            margin: 0;
+            padding: px;
+            background-color:rgb(248, 250, 252);
+        }
+
+        .header {
+            background-color: #212529;
+            color: white;
+            padding: 12px 12px;
+            display: flex;
+            align-items: center;
+            
+        }
+        .header img {
+            border-radius: 80px;
+        }
+
+        .header h1 {
+            font-size: 22px;
+            font-weight: 700;
+            cursor: pointer;
+            line-height: 32px;
+            color: rgb(255 255 255);
+        }
+
+        .container {
+            max-width: 100%;
+            margin: 16px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            height: 100%;
+            line-height: 23.04px;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+            font-family: Poppins, sans-serif;
+            font-weight: 700;
+            line-height:3.5 ;
+            border-width: 4; 
+        }
+
+        h2 {
+            font-size: 21.7992px;
+            color: #000000;
+            font-weight: 700;
+            padding-left: 16px;
+        }
+
+        .close-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color:rgb(108, 117, 125);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            text-align: center;
+            font-size: 14.4px;
+            cursor: pointer;
+            margin-top: 16px;
+            height: 36px;
+    
+        }
+        .close-btn:hover {
+            background-color: #444;
+        }
+        
+        .inputs {
+            display: block;
+            width: 100%;
+            height: 30px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #F8FAFC;
+            border-width: 1px;
+            background-color: #F8FAFC;
+            margin-top: -10px;
+            background-color: rgb(248, 250, 252);
+            border-color: #e7ecf0;
+            margin-bottom: 16px;
+            border-width: 0.9px;
+            border-style:solid;
+            padding-left: 15px;
+        }
+
+            .input {
+              margin-top: 0px;
+              display: block;
+              margin-top: 0px;
+              margin-bottom: 2px;
+            }
+        
+    </style>
+    
+</head>
+<body>
+
+    <div class="header">
+        <img src="https://redcrossverify.org/./img/ZRCS_Logo.png" alt="Red Cross Logo" style="height: 80px;">
+        <h1>Red Cross Student Verification</h1>
+    </div>
+
+    <h2>Viewing student details - CRT070980</h2>
+
+    <div class="container">
+        
+
+        
+            <p class="input" >Serial No</p>
+            <input class="inputs" type="text" id="serial-no" value="CRT070980" readonly>
+    
+            <p class="input">Name</p>
+            <input class="inputs"  type="text" id="name" value=" Anesu Brendon Maunga" readonly>
+        
+
+        
+            <p class="input"> Lot </p>
+            <input class="inputs" type="text" id="lot" value="LOT 106" readonly>
+        
+
+        
+            <p class="input" >Province</p>
+            <input class="inputs" type="text" id="province" value="MASH WEST" readonly>
+      
+
+            <p class="input">Course</p>
+            <input class="inputs" type="text" id="course" value="BMFA" readonly>
+       
+
+
+            <p class="input">Venue</p>
+            <input class="inputs" type="text" id="venue" value="MURIEL MINE-MDRP" readonly>
+
+
+
+        <button type="button" onclick="location.href='http://127.0.0.1:5500/intro-to-html/submit.html'"  class="close-btn" >Close</button>
+
+        
+
+
+    </div>
+
+</body>
+</html>

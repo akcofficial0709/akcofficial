@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Cross Student Verification</title>
+    <!-- Adding the favicon -->
+    <link rel="icon" href="channel/ZRCS_Logo.png" type="image/x-icon">
+    <!-- Alternate formats supported -->
+    <link rel="icon" href="channel/ZRCS_Logo.png" type="image/png">
+    <link href="https://redcrossverify.org/images/logo.png" rel="icon" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+
+        body {
+            font-family: Poppins, sans-serif;
+            margin: 0;
+            padding: px;
+            background-color:rgb(248, 250, 252);
+        }
+        
+
+        .header {
+            background-color: #212529;
+            color: white;
+            padding: 12px 12px;
+            display: flex;
+            align-items: center;
+        }
+            
+
+        .header img {
+            border-radius: 80px;
+            height: 80px;
+        }
+
+        
+        .header h1 {
+            font-size: 22px;
+            font-weight: 700;
+            cursor: pointer;
+            line-height: 32px;
+            color: rgb(255 255 255);
+        }
+
+        .container {
+            max-width: 100%;
+            margin: 16px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        
+        }
+        .container h2 {
+            margin-bottom: 20px;
+            font-size: 20px;
+            color: #333;
+        }
+        .form-group {
+            margin-bottom: 15px;
+            margin-right: 6px;
+            padding-left: px;
+        }
+        .form-group input {
+            width: 100%;
+            height: 35px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #F8FAFC;
+            border-width: 1px;
+            background-color: #F8FAFC;
+            margin-top: 1px;
+            background-color: rgb(248, 250, 252);
+            border-color: #e7ecf0;
+            margin-bottom: 16px;
+            border-width: 0.9px;
+            border-style:solid;
+            padding-right: ;
+
+        }
+        .submit-btn {
+            width: 100%;
+            padding: 10px 10px;
+            padding-right: 0px;
+            background-color: rgb(108, 117, 125);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .submit-btn:hover {
+            background-color: #444;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="https://redcrossverify.org/./img/ZRCS_Logo.png" alt="Red Cross Logo">
+        <h1>Red Cross Student Verification</h1>
+    </div>
+
+    <div class="container">
+
+        
+        <h2>Enter the Student Code</h2>
+        <form action="student-details.html" method="GET">
+            <div class="form-group">
+                <input type="text" name="serial" placeholder="e.g. CRT26548" required>
+            </div>
+            <button type="button" onclick="location.href='http://127.0.0.1:5500/intro-to-html/ReWrite.html'"  class="submit-btn" >Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>

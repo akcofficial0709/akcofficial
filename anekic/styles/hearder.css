@@ -1,0 +1,216 @@
+.header {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    position: fixed;
+    background-color: white;
+    left: 0;
+    top: 0px;
+    right: 0px;
+    border-bottom: 2px;
+    border-bottom-color:rgb(223, 223, 223) ;
+    border-bottom-style: solid;
+}
+
+.left-section {
+    width: 250px;
+    display:flex;
+}
+
+.left-sect-icons {
+    width: 80px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.middle-section {
+    flex: 1;
+    margin-left: 1px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.search-icon {
+   width: 62px;
+   margin-right: 8px;
+   margin-left: -1px;
+   height: 41px;
+   border-width: 1px;
+   border-color: rgb(205, 205, 205);
+   background-color: rgb(241, 241, 241);
+   border-style: solid;
+   cursor: pointer;
+}
+
+.search-button-icon {
+    height: 26px;
+    padding-top: 4px;
+}
+
+.voice-button-icon {
+    padding-top:4px;
+}
+
+.search-icon,
+.voice-button,
+.upload,
+.uploadss,
+.image {
+   position: relative;
+}
+
+.search-icon .tooltip,
+.voice-button .tooltip,
+.upload .tooltip {
+    position: absolute;
+    background-color: rgb(160, 160, 160);
+    color: white;
+    padding: 4px 4px 4px 4px;
+    height: 20px;
+    width: 54px;
+    text-align: center;
+    bottom: -38px;
+    margin-left: -6px;
+    border-radius: 2px;
+    opacity: 0;
+    pointer-events: none;
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+.uploadss .notinoti {
+    position: absolute;
+    background-color: rgb(160, 160, 160);
+    color: white;
+    padding: 4px 4px 4px 4px;
+    height: 20px;
+    width: 83px;
+    text-align: center;
+    bottom: -46px;
+    margin-left: -6px;
+    border-radius: 2px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.upload .image {
+    position: absolute;
+    background-color:rgb(160, 160, 160) ;
+    color: white;
+    padding: 4px 4px 4px 4px;
+    height: 20px;
+    width: 83px;
+    text-align: center;
+    bottom: -40px;
+    margin-left: -6px;
+    border-radius: 2px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.voice-button .tooltip {
+width: 200px;
+}
+
+.upload .tooltip {
+    width: 110px;
+    bottom: -46px;
+}
+
+.search-icon:hover .tooltip,
+.voice-button:hover .tooltip,
+.upload:hover .tooltip {
+    opacity: 1;
+}
+
+.uploadss:hover .notinoti {
+    opacity: 1;
+}
+
+.upload:hover .image {
+    opacity: 1;
+}
+
+.search-bar {
+    width: 100%;
+    max-width:350px ;
+    height: 37px;
+    font-size: 16px;
+    border-width: 1px;
+    border-color: rgb(205, 205, 205);
+    border-style: solid;
+    border-radius: 1px;
+    box-shadow: inset 1px 2px 3px rgb (0, 0, 0.5)
+    padding: 10px;
+}
+
+.search-button ::placeholder {
+    font-family: Roboto, arial;
+    font-size: 16px;
+}
+
+.voice-button {
+    width: 40px;
+    border-radius: 20px;
+    height:40px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(245, 245, 245);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.right-section {
+    width: 182px;
+    margin-left: 29px;
+    margin-right: 24px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.upload {
+    width: 25px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.uploadss {
+    position: relative;
+    width: 25px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.not-num {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: red;
+    color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    font-family: Roboto, Arial;
+    font-size: 13px;
+    text-align: center;
+}
+
+.anesu {
+    cursor: pointer;
+    height: 38px;
+    border-radius: 19px;
+    width: 38px;
+}
